@@ -1,0 +1,40 @@
+{
+    "indxMenu": {
+      "function": "FUNCTIONS LIST",
+      "inquiry": "CONTACT",
+      "download": "APP DOWNLOAD"
+    },
+    "ind-banner": {
+      "text1": "iSwing + iCaddie",
+      "text2": "Strongest",
+      "text3": "Stadium Service System"
+    },
+    "ind-about-slogan":{
+      "slogan": "Overview of stadium functions"
+    },
+    "ind-fat-t01":{
+      "title": "Golf Cart Real Time Management",
+      "t01-1ex": "Know the current location and distribution of your golf carts at any time",
+      "t01-2ex": "Monitor golfers' current ball speeds and manage customer traffic on the course",
+      "t01-3ex": "Simplify the golf cart flow management process and improve golf course flow."
+    },
+    "ind-fat-t02":{
+      "title": "Fairway Information And Green Holes",
+      "t01-1ex": "Easily update daily fairway information and green ball location maps.",
+      "t01-2ex": "Providing accurate batting assist information to batting guests in real time."
+    },
+    "ind-about-slogan2":{
+      "slogan": "Personal Management Service"
+    },
+    "ind-about-slogan3":{
+      "slogan": "List Of Personal Management Functions"
+    },
+    "ind-about-content1":{
+      "contx-title": "Personal cloud score record management",
+      "contx-txt": "You can input personal score data from a golf cart terminal, print the score after hitting a ball, and use the cloud system management to link with your personal smartphone to receive push notifications of the day's batted ball score."
+    },
+    "ind-about-content2":{
+      "contx-title": "Latest golf news releases",
+      "contx-txt": "Golfers can always obtain the latest golf information on their iSwing device or the dedicated iCaddie APP platform, making it more convenient for golfers to obtain golf information."
+    }
+}

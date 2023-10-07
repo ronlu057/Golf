@@ -1,0 +1,27 @@
+*{
+    font-family: "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック体", "Yu Gothic", YuGothic, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    scroll-behavior: smooth;
+}
+header {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    box-shadow: 0px 0px 18px 0px rgba( 20,20,20,.25 );
+    position: fixed;
+    z-index: 99;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+nav {
+    width: auto;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../../../public/fonts/RussoOne-Regular.ttf') format("truetype");
+}

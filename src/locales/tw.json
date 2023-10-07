@@ -1,0 +1,40 @@
+{
+    "indxMenu": {
+      "function": "機能一覧",
+      "inquiry": "聯絡我們",
+      "download": "APP下載"
+    },
+    "ind-banner": {
+      "text1": "iSwing + iCaddie",
+      "text2": "最強的",
+      "text3": "球場服務系統"
+    },
+    "ind-about-slogan":{
+      "slogan": "球場機能一覽"
+    },
+    "ind-fat-t01":{
+      "title":"高爾夫球車即時管理",
+      "t01-1ex": "隨時了解您的高爾夫球車目前位置及分佈",
+      "t01-2ex": "監控高爾夫球手目前的球速並管理球場上的客戶流量",
+      "t01-3ex": "簡化高爾夫球車流量管理流程，改善高爾夫球場流量"
+    },
+    "ind-fat-t02":{
+      "title": "球道資訊和果嶺訊息",
+      "t01-1ex": "輕鬆更新每日球道資訊和綠球位置圖",
+      "t01-2ex": "即時為擊球客人提供準確的擊球輔助訊息"
+    },
+    "ind-about-slogan2":{
+      "slogan": "個人管理服務"
+    },
+    "ind-about-slogan3":{
+      "slogan": "個人管理機能一覽"
+    },
+    "ind-about-content1":{
+      "contx-title": "個人雲端成績記錄管理",
+      "contx-txt": "您可以從高爾夫球車終端輸入個人得分數據，擊球後列印得分，並使用雲端系統管理連接您的個人智慧型手機，接收當天擊球得分的推播通知。"
+    },
+    "ind-about-content2":{
+      "contx-title": "最新高爾夫新聞發布",
+      "contx-txt": "球友可以隨時在自己的iSwing設備或專用的iCaddie APP平台上獲取最新的高爾夫信息，讓球友更方便地獲取高爾夫信息。"
+    }
+}
