@@ -153,11 +153,11 @@
         justify-content: center;
     }
     .txt_Lb {
-        Width:80%;
+        width: 80%;
         order: 2;
     }
     .txt_Rb {
-        Width:100%
+        width: 100%
     }
 }
 </style>
