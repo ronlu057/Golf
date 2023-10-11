@@ -1212,7 +1212,7 @@
     opacity: 0;
   }
   100%{
-    oapcity: 0;
+    opacity: 0;
   }
 }
 @media screen and (max-width:1450px){
