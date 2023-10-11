@@ -2,11 +2,11 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Index from '../components/tw_index.vue';
 
 const router = createRouter({
-  base: '/',
+  base: './',
   history: createWebHashHistory(),
   routes: [
     {
-      path: './',
+      path: '/',
       name: 'index',
       component: Index
     },
