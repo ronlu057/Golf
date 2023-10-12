@@ -83,7 +83,6 @@
     box-shadow: 5px 5px 10px 2px rgba(20,20,20,.25);
     transition: all 0.5s;
 }
-
 .scroll .VBList::after{
     content: "";
     position: absolute;
@@ -94,7 +93,6 @@
     box-shadow: -5px -5px 10px 5px rgba(255,255,255,.75);
     transition: all 0.5s;
 }
-
 .VBList > li{
     width: 100%;
     height: 100%;
@@ -104,7 +102,6 @@
     background-repeat: no-repeat;
     opacity: 0;
 }
-
 .VBList > li.animate{
     animation-name: VBanim;
     animation-timing-function: linear;
