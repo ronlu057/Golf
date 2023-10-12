@@ -43,7 +43,6 @@
   background-size: 100% auto
   background-position: center bottom
   background-repeat: no-repeat
-
 @media screen and (max-width:840px)
   .index_download
     background-size: auto 100%
