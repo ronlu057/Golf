@@ -1,15 +1,15 @@
-import { createRouter, createWebHashHistory } from 'vue-router';
-import Index from '../components/tw_index.vue';
+import { createRouter, createMemoryHistory } from 'vue-router';
+import Home from './../components/tw_index.vue';
 
 const router = createRouter({
-  base: './',
-  history: createWebHashHistory(),
+  history: createMemoryHistory(),
   routes: [
     {
       path: '/',
-      name: 'index',
-      component: Index
+      name: 'Home',
+      component: Home
     },
   ]
-})
-export default router
+});
+
+export default router;

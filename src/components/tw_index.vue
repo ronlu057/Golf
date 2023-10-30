@@ -1,8 +1,8 @@
 <script setup>
-  import Carousel from "../views/Carousel.vue"
-  import Features from "../views/Features.vue"
-  import AboutUs from "../views/AboutUs.vue"
-  import Download from "../views/Download.vue"
+  import Carousel from "./../views/Carousel.vue"
+  import Features from "./../views/Features.vue"
+  import AboutUs from "./../views/AboutUs.vue"
+  import Download from "./../views/Download.vue"
 </script>
 
 <template>
@@ -11,15 +11,15 @@
       <Carousel />
     </section>
     <!----------------------內容區--------------------------------------------->
-    <section id="banner" class="index_function">
+    <section id="content" class="index_function">
       <Features />
     </section>
     <!----------------------關於我們區----------------------------------------->
-    <section class="index_aboutus">
+    <section id="about" class="index_aboutus">
       <AboutUs />
     </section>
     <!----------------------下載APP區----------------------------------------->
-    <section class="index_download">
+    <section id="Dw" class="index_download">
       <Download />
     </section>
 </template>

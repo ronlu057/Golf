@@ -1,9 +1,9 @@
 <template>
     <header>
         <div class="top_all">
-            <div class="logo_box"><img src="../assets/img/cs_logo.svg" alt=""></div>
+            <div class="logo_box"><RouterLink to="/"><img src="../assets/img/cs_logo.svg" alt=""></RouterLink></div>
             <nav>
-                <div class="menu_item" v-for="menuid in menu_list" :key="menuid.id"><a href="#banner">{{ $t( `${menuid.itemname}`) }}</a></div>
+                <div class="menu_item" v-for="menuid in menu_list" :key="menuid.id"><a :href="menuid.url">{{ $t( `${menuid.itemname}`) }}</a></div>
                 <div class="language_bar">
                     <select v-model="locale">
                         <option v-for="item in localeOptions" :key="`locale-${item.lang}`" :value="item.lang">
@@ -36,13 +36,16 @@ const localeOptions = ref([
 ])
 const menu_list = ref([
     {
-        itemname: 'indxMenu.function'
+        itemname: 'indxMenu.function',
+        url: '#content'
     },
     {
-        itemname: 'indxMenu.inquiry'
+        itemname: 'indxMenu.inquiry',
+        url: '#about'
     },
     {
-        itemname: 'indxMenu.download'
+        itemname: 'indxMenu.download',
+        url: '#Dw'
     }
 ])
 
