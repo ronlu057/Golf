@@ -5,7 +5,7 @@
     <div class="FTTOP">
         <div class="Features_top">FEATURES</div>
         <div class="feat_box"></div>
-        <div class="feat_photo_box"><img src="../../public/images/img_01.png" alt=""></div>
+        <div class="feat_photo_box"><img src="./../../public/images/img_01.png" alt=""></div>
         <div class="abouts">
             <div class="about_no1">
                 <div class="about_txt_all">
@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="item_01">
-                    <div class="item_photo"><img src="../../public/images/img_02.jpg" alt=""></div>
+                    <div class="item_photo"><img src="./../../public/images/img_02.jpg" alt=""></div>
                     <div class="item_txtbox">
                         <h2>{{ $t("ind-fat-t01.title") }}</h2>
                         <ul>
@@ -52,14 +52,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="item_photo"><img src="../../public/images/img_03.jpg" alt=""></div>
+                    <div class="item_photo"><img src="./../../public/images/img_03.jpg" alt=""></div>
                 </div>
             </div>
         </div>
         <div class="abouts3">
             <div class="about_no1">
                 <div class="item_01">
-                    <div class="item_photo"><img src="../../public/images/img_04.jpg" alt=""></div>
+                    <div class="item_photo"><img src="./../../public/images/img_04.jpg" alt=""></div>
                     <div class="item_txtbox">
                         <div class="wrapper">
                             <div class="sun"></div>
@@ -174,7 +174,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="item_photo"><img src="../../public/images/img_03.jpg" alt=""></div>
+                    <div class="item_photo"><img src="./../../public/images/img_03.jpg" alt=""></div>
                 </div>
             </div>
         </div>
@@ -239,7 +239,7 @@
     width: 100%;
     height: auto;
     float: left;
-    background-image: url("../../public/images/img_bg03.jpg");
+    background-image: url("./../../public/images/img_bg03.jpg");
     background-size: 60%;
     background-color: #edf4f2;
     background-position: top right;
@@ -357,7 +357,7 @@
     width: 100%;
     height: auto;
     float: left;
-    background-image: url("../../public/images/img_bg04.jpg");
+    background-image: url("./../../public/images/img_bg04.jpg");
     background-size: auto;
     background-color: #edf4f2;
     background-position: top left;
@@ -435,7 +435,7 @@
     width: 100%;
     height: auto;
     float: left;
-    background-image: url("../../public/images/img_bg05.jpg");
+    background-image: url("./../../public/images/img_bg05.jpg");
     background-size: 30%;
     background-color: #edf4f2;
     background-position: center right;
@@ -450,7 +450,7 @@
     width: 100%;
     height: auto;
     float: left;
-    background-image: url("../../public/images/img_bg06.jpg");
+    background-image: url("./../../public/images/img_bg06.jpg");
     background-size: auto 80%;
     background-color: #edf4f2;
     background-position: center left;

@@ -9,7 +9,7 @@
 
     const img = function(n){
         return {
-            backgroundImage:`url(../../public/images/banner0${n}.jpg)`,
+            backgroundImage:`url(./../../public/images/banner0${n}.jpg)`,
             animationDuration: `${animationDuration}s`,
             //animationDelay: `${(n-1)*animationDuration/2}s`
         }
@@ -37,13 +37,13 @@
                 <h2>{{ $t("ind-banner.text2") }}</h2>
                 <h2>{{ $t("ind-banner.text3") }}</h2>
             </div>
-            <div class="v_photos"><img src="../../public/images/photo_01.png" alt=""></div>
+            <div class="v_photos"><img src="./../../public/images/photo_01.png" alt=""></div>
         </div>
         <div class="bgfrom">
-            <div class="vb_laterphoto"><img src="../../public/images/5d.png" alt=""></div>
-            <div class="vb_ball_b01"><img src="../../public/images/golf_ball.png" alt=""></div>
-            <div class="vb_ball_b02"><img src="../../public/images/golf_ball.png" alt=""></div>
-            <div class="vb_ball_b03"><img src="../../public/images/golf_ball.png" alt=""></div>
+            <div class="vb_laterphoto"><img src="./../../public/images/5d.png" alt=""></div>
+            <div class="vb_ball_b01"><img src="./../../public/images/golf_ball.png" alt=""></div>
+            <div class="vb_ball_b02"><img src="./../../public/images/golf_ball.png" alt=""></div>
+            <div class="vb_ball_b03"><img src="./../../public/images/golf_ball.png" alt=""></div>
         </div>
         <div class="VB_bg"></div>
     </div>
@@ -229,7 +229,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url("../public/images/bg01.jpg");
+    background-image: url("./../../public/images/bg01.jpg");
     opacity: .15;
     z-index: 0;
     top: 50%;

@@ -2,7 +2,7 @@
     <div class="about_box">
         <div class="about_box2_in">
             <div class="text_RL2">
-                <div class="txt_Lb"><img src="../../public/images/img_06.png" alt=""></div>
+                <div class="txt_Lb"><img src="./../../public/images/img_06.png" alt=""></div>
                 <div class="txt_Rb">
                     <div class="about_txt t1s">ABOUT</div>
                     <div class="about_txt2 t2s">

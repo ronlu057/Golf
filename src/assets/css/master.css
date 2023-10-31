@@ -23,5 +23,5 @@ nav {
 
 @font-face {
     font-family: 'Outfit';
-    src: url('../../../public/fonts/RussoOne-Regular.ttf') format("truetype");
+    src: url('./../../public/fonts/RussoOne-Regular.ttf') format("truetype");
 }

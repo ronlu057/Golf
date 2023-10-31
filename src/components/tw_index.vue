@@ -36,7 +36,7 @@
   margin-top: 80px
 .index_download
   height: 400px
-  background-image: url("../../public/images/dl_bg.jpg")
+  background-image: url("./../../public/images/dl_bg.jpg")
   display: flex
   flex-wrap: wrap
   align-items: center

@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div class="foot_box">
-            <div class="foot_logo"><img src="../../public/images/logo_web_w.png" alt=""></div>
+            <div class="foot_logo"><img src="./../../public/images/logo_web_w.png" alt=""></div>
             <div class="fot_01">
                 <p>ホシミズ•デジタル㈱ HOSHIMIZU DIGITAL Co., Ltd.</p>
                 <p>〒107-0062 東京都港区南青山3丁目1番36号 青山丸竹ビル6F</p>
