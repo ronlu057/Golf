@@ -9,7 +9,7 @@
 
     const img = function(n){
         return {
-            backgroundImage:`url(./../../public/images/banner0${n}.jpg)`,
+            backgroundImage:`url(./images/banner0${n}.jpg)`,
             animationDuration: `${animationDuration}s`,
             //animationDelay: `${(n-1)*animationDuration/2}s`
         }
