@@ -1,40 +1,58 @@
 {
-    "indxMenu": {
-      "function": "FUNCTIONS LIST",
-      "inquiry": "CONTACT",
-      "download": "APP DOWNLOAD"
-    },
-    "ind-banner": {
-      "text1": "iSwing + iCaddie",
-      "text2": "Strongest",
-      "text3": "Stadium Service System"
-    },
-    "ind-about-slogan":{
-      "slogan": "Overview of stadium functions"
-    },
-    "ind-fat-t01":{
-      "title": "Golf Cart Real Time Management",
-      "t01-1ex": "Know the current location and distribution of your golf carts at any time",
-      "t01-2ex": "Monitor golfers' current ball speeds and manage customer traffic on the course",
-      "t01-3ex": "Simplify the golf cart flow management process and improve golf course flow."
-    },
-    "ind-fat-t02":{
-      "title": "Fairway Information And Green Holes",
-      "t01-1ex": "Easily update daily fairway information and green ball location maps.",
-      "t01-2ex": "Providing accurate batting assist information to batting guests in real time."
-    },
-    "ind-about-slogan2":{
-      "slogan": "Personal Management Service"
-    },
-    "ind-about-slogan3":{
-      "slogan": "List Of Personal Management Functions"
-    },
-    "ind-about-content1":{
-      "contx-title": "Personal cloud score record management",
-      "contx-txt": "You can input personal score data from a golf cart terminal, print the score after hitting a ball, and use the cloud system management to link with your personal smartphone to receive push notifications of the day's batted ball score."
-    },
-    "ind-about-content2":{
-      "contx-title": "Latest golf news releases",
-      "contx-txt": "Golfers can always obtain the latest golf information on their iSwing device or the dedicated iCaddie APP platform, making it more convenient for golfers to obtain golf information."
-    }
+  "indxMenu": {
+    "function": "Features",
+    "inquiry": "Inquiry",
+    "download": "Download"
+  },
+  "ind-banner": {
+    "text1": "iSwing + iCaddie",
+    "text2": "The strongest",
+    "text3": "Stadium Service System"
+  },
+  "ind-about-slogan":{
+    "slogan": "Intuitive use, zero-time lag in system implementation",
+    "contx-txt": "The system offers a wide range of functions, including integrated tee time reservation, reception reporting, departure organization, course cart management mechanism, score recording, real-time updating of hole information, GPS location navigation, course information push notifications, and even a luxurious real-time ordering service. This system significantly enhances the management efficiency of golf courses, effectively reduces operational costs through simplified management mechanisms, improves brand recognition for golf courses, expands the community of golf enthusiasts, and increases the frequency of play."
+  },
+  "ind-fat-t01":{
+    "title": "The proactive management structure involves a swift and assertive approach, and that remains an unchanged principle.",
+    "stitle": "Real-time dynamic management of golf carts.",
+    "t01-1ex": "The stadium manager can monitor the current location and distribution of golf carts on the field in real-time through the management system interface. This allows them to keep track of the current players' swing speeds and manage the customer flow within the stadium.",
+    "t01-2ex": "As needed, the system can automatically or manually send real-time alert messages to the vehicles on the field, streamlining the golf cart traffic management process.",
+    "t01-3ex": "We aim to enhance the flow at the stadium, increase the turnover rate of swings, and provide a more comfortable hitting environment for golf enthusiasts."
+  },
+  "ind-fat-t02":{
+    "title": "We will update the information on fairways and the hole details on the green in real-time.",
+    "t01-1ex": "The stadium utilizes a cloud backend, leveraging internationally approved global coordinate location information. This allows for the easy daily updating of course information and the position diagrams of the pins on the green.",
+    "t01-2ex": "Providing accurate batting assistance information in real-time to batting guests."
+  },
+  "ind-fat-t03":{
+    "title": "The ultimate service for more direct and closer communication.",
+    "stitle": "Real-time information push notifications for the stadium.",
+    "t01-1ex": "The stadium manager can push important messages in real-time through the system, including warnings about slow swing speeds, daily weather updates, rain and lightning alerts, and considerate notifications. Additionally, promotions for various stadium services can be promoted, such as club match notifications, batting discount campaigns, and special meal offers for players. These pieces of information contribute to effective communication and information dissemination between the stadium and players."
+  },
+  "ind-fat-t04":{
+    "title": "Dignified real-time ordering service.",
+    "t01-1ex": "The golf cart's screen terminal features an ordering function, allowing players to simply touch the screen. The clubhouse's sales department receives the order information instantly and delivers the meal to the player's location in the shortest possible time."
+  },
+  "ind-fat-t05":{
+    "title": "Sharing and managing the team's performance.",
+    "t01-1ex": "During the team's hitting session, players can record their own performance while simultaneously checking the real-time progress and ranking of the team's match on that day, adding to the enjoyment of the hitting experience. At the same time, the system provides scoring methods such as Stableford, stroke play, and match play, aiding the team in recording their performance."
+  },
+  "ind-about-slogan2":{
+    "slogan": "While maintaining the traditional and pure nature of hitting, we aim to add further enjoyment."
+  },
+  "ind-about-slogan3":{
+    "slogan": "Overview of Individual Management Functions"
+  },
+  "ind-about-content1":{
+    "contx-title": "Individual Cloud Score Record Management",
+    "contx-txt": "When golfers take a swing, they can input their individual performance data from the golf cart terminal. After the swing session, they have the option to print the scores or push the day's results to their personal smartphones through the cloud system. This facilitates the creation of a dedicated database for individual score records."
+  },
+  "ind-about-content2":{
+    "contx-title": "Dissemination of the latest golf information",
+    "contx-txt": "Golf enthusiasts can access various up-to-date golf information anytime through the iSwing terminal or the dedicated iCaddie app platform. This makes it more convenient for golfers to obtain the latest golf-related information."
+  },
+  "dow-content":{
+    "dw_ctx": "APP Download"
+  }
 }

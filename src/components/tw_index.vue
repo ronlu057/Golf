@@ -11,7 +11,7 @@
       <Carousel />
     </section>
     <!----------------------內容區--------------------------------------------->
-    <section id="content" class="index_function">
+    <section class="index_function">
       <Features />
     </section>
     <!----------------------關於我們區----------------------------------------->

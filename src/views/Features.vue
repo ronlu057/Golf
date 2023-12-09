@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <div class="FTTOP">
+    <div class="FTTOP" id="content">
         <div class="Features_top">FEATURES</div>
         <div class="feat_box"></div>
         <div class="feat_photo_box"><img src="./../../public/images/img_01.png" alt=""></div>
@@ -12,12 +12,14 @@
                     <div class="about_txt">ABOUT</div>
                     <div class="about_txt2">
                         <h2>{{ $t("ind-about-slogan.slogan") }}</h2>
+                        <div class="cartenttxt">{{ $t("ind-about-slogan.contx-txt") }}</div>
                     </div>
                 </div>
                 <div class="item_01">
                     <div class="item_photo"><img src="./../../public/images/img_02.jpg" alt=""></div>
                     <div class="item_txtbox">
                         <h2>{{ $t("ind-fat-t01.title") }}</h2>
+                        <h3>{{ $t("ind-fat-t01.stitle") }}</h3>
                         <ul>
                             <li>
                                 <fa :icon="['far', 'circle-dot']" />
@@ -139,19 +141,12 @@
                                 </ul>
                             </div>
                         </div>
-                        <h2>{{ $t("ind-fat-t01.title") }}</h2>
+                        <h2>{{ $t("ind-fat-t03.title") }}</h2>
+                        <h3>{{ $t("ind-fat-t03.stitle") }}</h3>
                         <ul>
                             <li>
                                 <fa :icon="['far', 'circle-dot']" />
-                                {{ $t("ind-fat-t01.t01-1ex") }}
-                            </li>
-                            <li>
-                                <fa :icon="['far', 'circle-dot']" />
-                                {{ $t("ind-fat-t01.t01-2ex") }}
-                            </li>
-                            <li>
-                                <fa :icon="['far', 'circle-dot']" />
-                                {{ $t("ind-fat-t01.t01-3ex") }}
+                                {{ $t("ind-fat-t03.t01-1ex") }}
                             </li>
                         </ul>
                     </div>
@@ -162,19 +157,31 @@
             <div class="about_no1">
                 <div class="item_02">
                     <div class="item_txtbox2">
-                        <h2>{{ $t("ind-fat-t02.title") }}</h2>
+                        <h2>{{ $t("ind-fat-t04.title") }}</h2>
                         <ul>
                             <li>
                                 <fa :icon="['far', 'circle-dot']" />
-                                {{ $t("ind-fat-t02.t01-1ex") }}
-                            </li>
-                            <li>
-                                <fa :icon="['far', 'circle-dot']" />
-                                {{ $t("ind-fat-t02.t01-2ex") }}
+                                {{ $t("ind-fat-t04.t01-1ex") }}
                             </li>
                         </ul>
                     </div>
-                    <div class="item_photo"><img src="./../../public/images/img_03.jpg" alt=""></div>
+                    <div class="item_photo"><img src="./../../public/images/img_07.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="abouts5">
+            <div class="about_no1">
+                <div class="item_01">
+                    <div class="item_photo"><img src="./../../public/images/photo_01.png" alt=""></div>
+                    <div class="item_txtbox">
+                        <h2>{{ $t("ind-fat-t05.title") }}</h2>
+                        <ul>
+                            <li>
+                                <fa :icon="['far', 'circle-dot']" />
+                                {{ $t("ind-fat-t05.t01-1ex") }}
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,7 +193,12 @@
     position: relative;
     margin-top: -280px;
 }
-
+.cartenttxt {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 20px;
+}
 .Features_top {
     width: 100%;
     height: auto;
@@ -239,8 +251,8 @@
     width: 100%;
     height: auto;
     float: left;
-    background-image: url("./../../public/images/img_bg03.jpg");
-    background-size: 60%;
+    background-image: url("./../../public/images/img_bg03.png");
+    background-size: contain;
     background-color: #edf4f2;
     background-position: top right;
     background-repeat: no-repeat;
@@ -298,6 +310,7 @@
     height: auto;
     float: left;
     font-size: 30px;
+    font-weight: 600;
     line-height: 30px;
     margin-top: 10px;
 }
@@ -315,7 +328,7 @@
 }
 
 .item_txtbox {
-    width: 36%;
+    width: 56%;
     margin-left: 30px;
     display: inline-flex;
     align-content: center;
@@ -326,11 +339,20 @@
 
 .item_txtbox h2 {
     width: 100%;
-    color: #468f74;
+    color: #18674a;
     font-size: 26px;
-    line-height: 30px;
+    line-height: 36px;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.item_txtbox h3 {
+  width: 100%;
+  color: #7faa0a;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .item_txtbox>ul {
@@ -348,7 +370,7 @@
 
 .item_txtbox>ul>li>svg {
     font-size: 0.7rem;
-    color: #468f74;
+    color: #18674a;
     margin-top: 7px;
     margin-right: 3px;
 }
@@ -357,7 +379,7 @@
     width: 100%;
     height: auto;
     float: left;
-    background-image: url("./../../public/images/img_bg04.jpg");
+    background-image: url("./../../public/images/img_bg04.png");
     background-size: auto;
     background-color: #edf4f2;
     background-position: top left;
@@ -404,7 +426,7 @@
 
 .item_txtbox2 h2 {
     width: 100%;
-    color: #468f74;
+    color: #18674a;
     font-size: 26px;
     line-height: 30px;
     font-weight: bold;
@@ -426,7 +448,7 @@
 
 .item_txtbox2>ul>li>svg {
     font-size: 0.7rem;
-    color: #468f74;
+    color: #18674a;
     margin-top: 7px;
     margin-right: 3px;
 }
@@ -435,8 +457,8 @@
     width: 100%;
     height: auto;
     float: left;
-    background-image: url("./../../public/images/img_bg05.jpg");
-    background-size: 30%;
+    background-image: url("./../../public/images/img_bg05.png");
+    background-size: 100%;
     background-color: #edf4f2;
     background-position: center right;
     background-repeat: no-repeat;
@@ -450,10 +472,25 @@
     width: 100%;
     height: auto;
     float: left;
-    background-image: url("./../../public/images/img_bg06.jpg");
-    background-size: auto 80%;
+    background-image: url("./../../public/images/img_bg06.png");
+    background-size: auto 100%;
     background-color: #edf4f2;
     background-position: center left;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.abouts5 {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-image: url("./../../public/images/img_bg07.png");
+    background-size: 100%;
+    background-color: #edf4f2;
+    background-position: center right;
     background-repeat: no-repeat;
     display: inline-flex;
     justify-content: center;
@@ -1261,6 +1298,7 @@
   }
   .item_02 {
     margin-top: 0px;
+    padding-top: 40px;
   }
   .abouts2{
     background-position: bottom left;
@@ -1284,12 +1322,27 @@
   }
   .abouts{
     margin-top: -80px;
+    background-size: 220%;
+    background-position: bottom right;
+  }
+  .abouts2{
+    padding-top: 20px;
+    background-position: -110px 280px;
+  }
+  .abouts3{
+    background-size: cover;
+  }
+  .item_01{
+    padding-bottom: 20px;
   }
   .item_txtbox h2 {
     font-size: 24px;
   }
   .item_txtbox2 h2 {
     font-size: 24px;
+  }
+  .item_txtbox{
+    padding: 0px 20px;
   }
 }
 </style>
